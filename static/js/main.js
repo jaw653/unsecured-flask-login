@@ -1,6 +1,6 @@
 document.getElementById("btn").addEventListener("click", () => {
-    // The URL to which our POST is being sent
-    const serverURL = "http://10.10.11.2:5000/";
+    // The URL to which our POST is being sent (this machine's IP)
+    const serverURL = "http://0.0.0.0:5000/";
 
     // JS object containing username and password
     var msg = {
